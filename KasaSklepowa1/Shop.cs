@@ -16,11 +16,11 @@ namespace KasaSklepowa1
              *      -wyświetl paragon
              *   b)w przeciwnym wypadku:
              *      -znajdź produkt po kodzie kreskowym:
-             *      -jeżeli produkt istnieje:
-             *          a)dodaj do koszyka
-             *            -wyświetl nazwe dodanego produktu i cene łączną
-             *          b)w innym wypadku:
-             *            -wyświetl komunikat o błędzie
+             *         -jeżeli produkt istnieje:
+             *           a)dodaj do koszyka
+             *             -wyświetl nazwe dodanego produktu i cene łączną
+             *           b)w innym wypadku:
+             *             -wyświetl komunikat o błędzie
              * 3)zakończ program
              */
         public List<string> Cart { get; set; } = new List<string>();
